@@ -16,6 +16,7 @@ No settings available... If you want to edit it, you can always go to the github
 
 https://github.com/Rocket-Fish/CSCA08-Test-File-Syntax-Highlighter
 
+
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
