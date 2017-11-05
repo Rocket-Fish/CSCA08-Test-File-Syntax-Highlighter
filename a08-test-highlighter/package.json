@@ -2,8 +2,8 @@
     "name": "a08-test-highlighter",
     "displayName": "A08 Test Highlighter",
     "description": "Syntax highlighter for the custom test file language used in CSCA08 taught at UTSC",
-    "version": "0.0.1",
-    "publisher": "jim-mmy",
+    "version": "0.0.2",
+    "publisher": "jimmmy",
     "engines": {
         "vscode": "^1.17.0"
     },

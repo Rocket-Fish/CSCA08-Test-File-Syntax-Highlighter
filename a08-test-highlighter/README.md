@@ -21,6 +21,6 @@ https://github.com/Rocket-Fish/CSCA08-Test-File-Syntax-Highlighter
 
 Users appreciate release notes as you update your extension.
 
-### 0.0.1
+### 0.0.2
 
-Initial release (Please report bugs)
+Initial release (Please report bugs) 0.0.1 failed because I forgot something important XD
