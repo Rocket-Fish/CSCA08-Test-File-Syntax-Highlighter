@@ -1,0 +1,26 @@
+{
+    "name": "a08-test-highlighter",
+    "displayName": "A08 Test Highlighter",
+    "description": "Syntax highlighter for the custom test file language used in CSCA08 taught at UTSC",
+    "version": "0.0.1",
+    "publisher": "jim-mmy",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "test",
+            "aliases": ["test", "test"],
+            "extensions": [".test"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "test",
+            "scopeName": "source.test",
+            "path": "./syntaxes/test.tmLanguage.json"
+        }]
+    }
+}

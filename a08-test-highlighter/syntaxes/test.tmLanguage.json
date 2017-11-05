@@ -1,0 +1,65 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "test",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#chars"
+		}, 
+		{
+			"include": "#tf"
+		}, 
+		{
+			"include": "#brackets"
+		}
+		
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.test",
+				"match": "\\b(setup)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.test",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.test",
+					"match": "\\\\."
+				}
+			]
+		},
+		"chars": {
+			"name": "string.quoted.double.test",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.test",
+					"match": "\\\\."
+				}
+			]
+		},
+		"tf": {
+			"patterns": [{
+				"name": "constant.language",
+				"match": "\\b(True|False)\\b"
+			}]
+		},
+		"brackets": {
+			"patterns": [{
+				"name": "constant.numeric",
+				"match":"([|])"
+			}]
+		}
+	},
+	"scopeName": "source.test"
+}
