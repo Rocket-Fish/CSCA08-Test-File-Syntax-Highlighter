@@ -5,10 +5,10 @@ This is Syntax highlighter for the custom test file language used in CSCA08 taug
 ## Features
 
 This is a sample of what the highlighted code will look like 
-[feature X](images/good.JPG)
+![feature X](images/good.JPG)
 
 Instead of this normal plain look
-[feature X](images/bad.JPG)
+![feature Y](images/bad.JPG)
 
 ## Extension Settings
 
